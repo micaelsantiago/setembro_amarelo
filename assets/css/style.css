@@ -16,9 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 1rem;
-    height: 15vh
+    padding: 1rem
 }
 
 .header_container .header_logos  img {
