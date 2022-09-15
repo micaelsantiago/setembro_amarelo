@@ -104,21 +104,64 @@ body {
     border-radius: 1rem
 }
 
+.main_sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem
+}
+
+.sobre_professora img {
+    width: 90px;
+    height: 90px;
+    border: 3px solid #111;
+    border-radius: 50%
+}
+
+.sobre_professora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    text-align: center
+}
+
+.sobre_professora h3 {
+    margin: 10px 0
+}
+
+.sobre_professora span {
+    font-size: 14px
+}
+
+.sobre_professora_texto {
+    font-size: 14px;
+    text-align: justify
+}
+
 .main_depoimentos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1.5rem
+    padding: 1.5rem;
+    background: #F5CB26
+}
+
+.main_depoimentos h2 {
+    color: #111
 }
 
 .card_depoimento {
     margin: 1.5rem 0;
     padding: 1.5rem;
-    background: #F5CB26;
+    background: #FFF;
+    color: #111;
     border-radius: 1rem;
-    width: 100%
+    width: 100%;
 }
 
 .card_depoimento p {
@@ -145,7 +188,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
