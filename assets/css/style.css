@@ -13,6 +13,11 @@ body {
 }
 
 .header_container {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,7 +82,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 4.5rem;
+    padding: 10rem 4.5rem;
     background: #F5CB26
 }
 .apresentacao_texto {
@@ -267,4 +272,5 @@ footer {
     .main_cvv p {
         font-size: 1rem;
     }
+
 }
