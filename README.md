@@ -32,12 +32,22 @@ https://ete-setembro-amarelo.vercel.app/
           <b>micaelsantiago</b>
         </sub>
       </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
       <a href="https://github.com/anneestherlf">
         <img src="https://avatars.githubusercontent.com/u/102173382?v=4" width="100px;" alt="Foto de Anne Esther no GitHub"/><br>
         <sub>
           <b>anneestherlf</b>
         </sub>
       </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">
       <a href="https://github.com/matheusenricocsb">
         <img src="https://avatars.githubusercontent.com/u/102174772?v=4" width="100px;" alt="Foto de Matheus Santos no GitHub"/><br>
         <sub>
