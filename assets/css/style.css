@@ -162,6 +162,27 @@ body {
     text-align: justify
 }
 
+.main_historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.main_historia p{
+    margin: 1.5rem 0;
+    font-size: 0.9rem
+}
+
+.main_historia img{
+    width: 15rem;
+   
+}
+
+
+
 .main_depoimentos {
     display: flex;
     flex-direction: column;
