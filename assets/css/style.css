@@ -12,11 +12,14 @@ body {
     font-family: 'Lexend Deca', sans-serif
 }
 
+.main_sobre,
+.main_historia,
+.main_cvv {
+    margin: 1rem 0;
+}
+
 .header_container {
     background: rgb(255, 255, 255);
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -162,26 +165,27 @@ body {
     text-align: justify
 }
 
+
 .main_historia {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-
+    text-align: center;
+    background: #F5CB26
 }
 
 .main_historia p{
     margin: 1.5rem 0;
+    text-align: left;
     font-size: 0.9rem
 }
 
 .main_historia img{
-    width: 15rem;
-   
+    width: 17rem;
+    margin: 1rem 0
 }
-
-
 
 .main_depoimentos {
     display: flex;
@@ -263,9 +267,9 @@ footer {
 
 
 @media (min-width: 700px) {
-    html {
+    /* html {
         font-size: 18px;
-    }
+    } */
 
     .main_apresentacao {
         flex-direction: row;
@@ -287,11 +291,11 @@ footer {
     }
 
     .sobre_professora_texto  {
-        padding: 2rem;
+        /* padding: 2rem; */
     }
 
     .main_cvv p {
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
 }
