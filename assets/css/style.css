@@ -11,12 +11,12 @@ html {
 body {
     font-family: 'Lexend Deca', sans-serif
 }
-
+/* 
 .main_sobre,
 .main_historia,
 .main_cvv {
     margin: 1rem 0;
-}
+} */
 
 .header_container {
     background: rgb(255, 255, 255);
@@ -85,7 +85,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 10rem 4.5rem;
+    padding: 8rem 4.5rem;
     background: #F5CB26
 }
 .apresentacao_texto {
@@ -133,14 +133,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem
+    padding: 1.5rem;
+    width: 100%
 }
 
-.sobre_professora img {
+.sobre_professora img,
+.palestrante img {
     width: 90px;
     height: 90px;
     border: 3px solid #111;
-    border-radius: 50%
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
 }
 
 .sobre_professora {
@@ -149,7 +153,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
-    text-align: center
+    text-align: center;
+    width: 100%
 }
 
 .sobre_professora h3 {
@@ -165,6 +170,36 @@ body {
     text-align: justify
 }
 
+.main_palestra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background: #F5CB26;
+    width: 100%;
+    text-align: center
+}
+
+.palestrante img {
+    margin-bottom: 1rem
+}
+
+.main_palestra h2 {
+    margin: 10px 0
+}
+
+.palestra_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.5rem
+}
+
+.palestrante {
+    margin: 1rem 0
+}
+
 
 .main_historia {
     display: flex;
@@ -172,8 +207,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    text-align: center;
-    background: #F5CB26
+    width: 100%
 }
 
 .main_historia p{
@@ -183,7 +217,7 @@ body {
 }
 
 .main_historia img{
-    width: 17rem;
+    width: 12rem;
     margin: 1rem 0
 }
 
@@ -194,7 +228,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 1.5rem;
-    background: #F5CB26
+    background: #F5CB26;
+    width: 100%
 }
 
 .main_depoimentos h2 {
@@ -221,7 +256,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1.5rem
+    padding: 1.5rem;
+    width: 100%;
 }
 
 .main_cvv p {
@@ -280,12 +316,14 @@ footer {
         display: inline
     }
 
-    .sobre_professora {
+    .sobre_professora,
+    .palestrante {
         flex-direction: row;
         gap: 5rem;
     }
 
-    .sobre_professora img {
+    .sobre_professora img,
+    .palestrante img {
         width: 150px;
         height: 150px   
     }
